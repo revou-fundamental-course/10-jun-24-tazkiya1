@@ -8,23 +8,28 @@ body {
 
 h1 {
     text-align: center;
+    font-family: cursive; 
     
 }
 
 p {
     text-align: center;
+    font-family: cursive; 
 }
 
 .celsius-container {
     text-align: center;
+    font-family: cursive; 
 }
 
 .fahrenheit-container {
     text-align: center;
+    font-family: cursive; 
 }
 
 .calculate-container {
     text-align: center;
+    font-family: cursive; 
 }
 
 textarea {
@@ -35,11 +40,13 @@ textarea {
     background-color: #f8f8f8;
     font-family: math;
     font-size: 18px;
+    font-family: cursive; 
 }
 
 .button{
     height: 32px;
     border-radius: 4px;
+    font-family: cursive; 
 }
 
 .green-color {
