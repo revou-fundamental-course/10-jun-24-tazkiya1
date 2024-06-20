@@ -1,10 +1,17 @@
 /* ini css */
 
 body {
-    background-color: teal;
+    background-color: darkslategray;
     color: white;
 }
 
+.background {
+    background-color: teal;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+    border-radius: 15px;
+}
 
 h1 {
     text-align: center;
@@ -73,3 +80,4 @@ textarea {
 .formula-container {
     text-align: center; 
 }
+

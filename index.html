@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!-- background main content -->
+    <div class="background">
     <header>
         <h1>Konversi Suhu</h1>
     </header>
@@ -25,9 +27,9 @@
                 <textarea></textarea>
 
                 <section>
-                    <button class="button green-color">Konversi</button>
-                    <button class="button orange-color">Reset</button>
-                    <button class="button blue-color">Reverse</button>
+                    <button class="button green-color" class="btn" onclick="btnClick()" >Konversi</button>
+                    <button class="button orange-color" class="btn" onclick="btnClick()">Reset</button>
+                    <button class="button blue-color" class="btn" onclick="btnClick()">Reverse</button>
                 </section>
             </section>
          </section>
@@ -68,12 +70,10 @@
             <span class="subject-info">S</span><sub>(&deg;F)</sub> = (<span class="subject-info">S</span><sub>(&deg;C)</sub> x 9/5) + 32 atau <span class="subject-info">S</span><sub>(&deg;F)</sub> = (<span class="subject-info">S</span><sub>(&deg;C)</sub> x 1.8) + 32
         </p>
         
-    
-            
-    
         </section>
 
      </main>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
